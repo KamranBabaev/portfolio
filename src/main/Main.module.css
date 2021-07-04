@@ -1,0 +1,17 @@
+.main {
+    height: 100vh;
+    background-color: rgb(246, 184, 161);
+}
+
+.text {
+    width: 300px;
+    background-color: gold;
+}
+
+.photo {
+    width: 300px;
+}
+
+.photo img {
+    width: 300px;
+}
