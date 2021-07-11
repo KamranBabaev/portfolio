@@ -1,0 +1,22 @@
+.worksBlock {
+    height: 80vh;
+    background-color: #55d7cc;
+    margin: 0 auto;
+
+}
+
+.title {
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.work {
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
