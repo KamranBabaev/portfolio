@@ -1,6 +1,6 @@
 .main {
-    height: 60vh;
     background-color: rgb(246, 184, 161);
+    box-sizing: border-box;
 }
 
 .text {

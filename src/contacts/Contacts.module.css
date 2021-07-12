@@ -1,6 +1,5 @@
 .contactsBlock {
     background-color: chocolate;
-    height: 70vh;
 }
 
 .item {
@@ -10,13 +9,19 @@
     margin: 0 auto;
     border: 1px solid;
     padding: 25px;
+    width: inherit;
+}
+
+.item h3 {
+    background-color: #b3fa10;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 600px;
+    max-width: 600px;
+    width: inherit;
     min-height: 250px;
 }
 

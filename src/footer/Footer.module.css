@@ -1,6 +1,6 @@
 .footerBlock {
     background-color: #f85858;
-    height: 30vh;
+    height: 25vh;
 }
 
 .footerContainer {
@@ -16,7 +16,7 @@
 }
 
 .items img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 0 20px;
 }

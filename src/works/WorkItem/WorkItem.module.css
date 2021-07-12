@@ -36,9 +36,11 @@
 .workItem h3 {
     width: 100px;
     padding-left: 10px;
+    background-color: #d04848;
 }
 
 .workItem p {
     width: 200px;
     padding-left: 10px;
+    background-color: #d04848;
 }

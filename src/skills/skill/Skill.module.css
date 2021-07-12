@@ -6,6 +6,11 @@
     align-items: center;
     background-color: gold;
     border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.skill h4 {
+    background-color: #d04848;
 }
 
 .icon {
@@ -16,4 +21,5 @@
 
 .description {
     text-align: center;
+    background-color: #d04848;
 }

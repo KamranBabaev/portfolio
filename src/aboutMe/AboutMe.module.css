@@ -1,12 +1,15 @@
 .aboutMeBlock {
     background-color: gold;
     width: 100%;
-    height: 30vh;
+}
+
+.aboutMeBlock h3 {
+    background-color: #d04848;
 }
 
 .info {
     padding: 25px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     align-items: center;

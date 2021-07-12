@@ -1,5 +1,5 @@
 import styles from './Works.module.css'
-import {WorkItem} from "./Work/WorkItem";
+import {WorkItem} from "./WorkItem/WorkItem";
 import stylesContainer from "../common/styles/Container.module.css";
 
 export const Works = (props) => {
