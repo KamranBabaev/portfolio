@@ -4,22 +4,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: gold;
-    border: 1px solid black;
     box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    margin: 25px;
 }
 
 .skill h4 {
-    background-color: #d04848;
+    font-size: 20px;
+    margin: 15px 0;
 }
 
 .icon {
     width: 60px;
     height: 60px;
-    background-color: #d9d1d1;
 }
 
 .description {
     text-align: center;
-    background-color: #d04848;
 }

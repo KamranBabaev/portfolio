@@ -1,18 +1,15 @@
 .worksBlock {
-    background-color: #55d7cc;
-    margin: 0 auto;
+    margin: 25px auto;
+    font-family: 'Barlow', sans-serif;
 }
 
 .title {
-    margin: 20px auto;
     font-weight: 600;
     font-size: 22px;
-    background-color: #d04848;
 }
 
 .work {
     display: flex;
-    border: 1px solid black;
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;

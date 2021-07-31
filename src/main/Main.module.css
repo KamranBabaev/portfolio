@@ -1,15 +1,12 @@
 .main {
-    background-color: rgb(246, 184, 161);
     box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .text {
     width: 300px;
-    background-color: gold;
-}
-
-.photo {
-    width: 300px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
 }
 
 .photo img {

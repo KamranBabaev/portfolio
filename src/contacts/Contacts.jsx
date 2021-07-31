@@ -12,7 +12,7 @@ export const Contacts = () => {
                         <input value={'babaev.camran@yandex.ru'}/>
                         <textarea placeholder='что-нибудь написать...'/>
                     </form>
-                        <button>отправить</button>
+                        <button type={'submit'}>отправить</button>
                 </div>
             </div>
         </div>

@@ -1,7 +1,3 @@
-.contactsBlock {
-    background-color: chocolate;
-}
-
 .item {
     display: flex;
     flex-direction: column;

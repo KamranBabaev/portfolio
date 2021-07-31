@@ -1,14 +1,12 @@
-.skillsBlock {
-    background-color: #6ecb6e;
-}
-
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 25px;
 }
 
 .title {
-    background-color: #d04848;
+    font-family: 'Barlow', sans-serif;
+    font-size: 22px;
 }
 
 .skills {

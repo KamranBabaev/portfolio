@@ -1,11 +1,33 @@
 .navigation {
-    border: 1px solid black;
-    width: 350px;
+    width: 400px;
     display: flex;
     justify-content: space-evenly;
     margin-right: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
 }
 
 .navigation a {
+    color: #e1e1e1;
+    display: inline-block;
     text-decoration: none;
+}
+
+.navigation a:hover {
+    color: white;
+}
+
+.navigation a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px white;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    color: white;
+}
+
+.navigation a:hover:after {
+    transform: scaleX(1);
+    color: white;
 }
