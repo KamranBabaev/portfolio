@@ -1,11 +1,11 @@
 .navigation {
-    width: 400px;
+    width: 350px;
     display: flex;
     justify-content: space-evenly;
     margin-right: 30px;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 600;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .navigation a {

@@ -16,23 +16,17 @@ export function Skills() {
         <h3 className={styles.title}>Мои скиллы:</h3>
         <div className={styles.skills}>
           <Skill title='HTML and CSS'
-                 icon={html}
-                 description='Блок с текстом. Здесь будет краткое описание моих скиллов'/>
+                 icon={html}/>
           <Skill title='JavaScript'
-                 icon={js}
-                 description='Блок с текстом. Здесь будет краткое описание моих скиллов'/>
+                 icon={js}/>
           <Skill title='TypeScript'
-                 icon={typeScript}
-                 description='Блок с текстом. Здесь будет краткое описание моих скиллов'/>
+                 icon={typeScript}/>
           <Skill title='React'
-                 icon={react}
-                 description='Блок с текстом. Здесь будет краткое описание моих скиллов'/>
+                 icon={react}/>
           <Skill title='GIT'
-                 icon={git}
-                 description='Блок с текстом. Здесь будет краткое описание моих скиллов'/>
+                 icon={git}/>
           <Skill title='Material UI'
-                 icon={materialUI}
-                 description='Блок с текстом. Здесь будет краткое описание моих скиллов'/>
+                 icon={materialUI}/>
         </div>
       </div>
     </div>

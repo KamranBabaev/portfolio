@@ -1,5 +1,5 @@
 .worksBlock {
-    margin: 25px auto;
+    margin: 40px auto;
     font-family: 'Barlow', sans-serif;
 }
 
@@ -9,6 +9,7 @@
 }
 
 .work {
+    margin: 30px auto;
     display: flex;
     width: 100%;
     justify-content: space-between;

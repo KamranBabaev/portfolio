@@ -1,19 +1,25 @@
+.skillsBlock {
+    background-color: rgba(236, 236, 236, 0.31);
+    border: 2px solid #b9b7b7;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 25px;
 }
 
 .title {
-    font-family: 'Barlow', sans-serif;
     font-size: 22px;
 }
 
 .skills {
+    margin-top: 15px;
     box-sizing: border-box;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 

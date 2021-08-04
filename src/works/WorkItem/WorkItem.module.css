@@ -1,3 +1,17 @@
+.workItem {
+    border: 2px solid #7c7b7b;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 150ms;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.workItem:hover {
+    transform: translateY(-5px);
+    transition: 150ms;
+}
+
 .container {
     position: relative;
     padding: 10px;
@@ -14,6 +28,10 @@
         width: 250px;
         display: flex;
     }
+
+    .workItem p {
+        width: 250px;
+    }
 }
 
 .container .btn {
@@ -22,9 +40,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #343434;
+    background-color: #606060;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -32,15 +50,15 @@
 }
 
 .container .btn:hover {
-    background-color: #1c1c1c;
+    background-color: #3d3c3c;
 }
 
 .workItem h3 {
-    width: 100px;
+    width: 100%;
     padding-left: 10px;
 }
 
 .workItem p {
-    width: 250px;
+    width: 400px;
     padding-left: 10px;
 }

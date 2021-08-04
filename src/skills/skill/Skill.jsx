@@ -6,7 +6,6 @@ export function Skill(props) {
     <div className={styles.skill}>
       <img src={props.icon} className={styles.icon} alt=''/>
       <h4>{props.title}</h4>
-      <span className={styles.description}>{props.description}</span>
     </div>
   )
 }

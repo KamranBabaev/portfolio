@@ -1,12 +1,17 @@
 .main {
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .text {
-    width: 300px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 20px;
+    width: 350px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+}
+
+.text p {
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    opacity: 70%;
 }
 
 .photo img {

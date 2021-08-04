@@ -12,11 +12,13 @@ export const Works = () => {
         <div className={styles.work}>
           <WorkItem title='FRND'
                     backIMG={frnd}
-                    description='социальная сеть для общения и поиска друзей'
+                    description='Социальная сеть с возможностью добавления постов, подписки, логинизации.
+                    Использовался стек: TypeScript, React, Redux, Redux Thunk и Form, Axios и др'
           />
           <WorkItem title='CAPSULA'
                     backIMG={caps}
-                    description='интернет-магазин гаджетов'
+                    description='Интернет-магазин гаджетов, с возможностью добавления товаров в корзину, расчетом стоимости, добавлением товаров в избранное.
+                    Использовался читый React, хуки, для запросов Axios.'
           />
         </div>
       </div>
