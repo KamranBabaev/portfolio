@@ -24,13 +24,23 @@
 }
 
 @media screen and (max-width: 400px) {
+    .workItem {
+        width: 300px;
+    }
+
     .container img {
-        width: 250px;
-        display: flex;
+        width: 200px;
+        height: 125px;
+    }
+
+    .workItem h3 {
+        width: 200px;
+        padding: 10px;
     }
 
     .workItem p {
-        width: 250px;
+        width: 200px;
+        padding: 10px;
     }
 }
 
@@ -55,10 +65,9 @@
 
 .workItem h3 {
     width: 100%;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .workItem p {
-    width: 400px;
-    padding-left: 10px;
+    padding: 10px;
 }
