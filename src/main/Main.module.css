@@ -8,7 +8,7 @@
     font-size: 17px;
 }
 
-.text p {
+.text span {
     font-family: 'Noto Sans TC', sans-serif;
     opacity: 70%;
 }
