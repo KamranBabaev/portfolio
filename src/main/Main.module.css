@@ -5,12 +5,11 @@
 
 .text {
     width: 350px;
-    font-family: 'Nunito', "JetBrains Mono", sans-serif;
     font-size: 17px;
 }
 
 .text p {
-    font-family: "Comic Sans MS", -apple-system, Arial, sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     opacity: 70%;
 }
 
